@@ -1,30 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--CSSl links-->
-    <link rel="stylesheet" href="./styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- CSS file -->
+    <link rel="stylesheet" href="./styles.css">
+    <title>The Learning Platform
 
-    <title>The learning platform</title>
+    </title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+    <header>
+        <!-- Nav starts -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">TriBCA</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
@@ -32,15 +35,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-outline-success">+Join</button>
-                    </li>
                 </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">+Join</button>
+                </form>
             </div>
-        </div>
-    </nav>
-    <header>
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        </nav>
+        <!-- Nav ends -->
+        <!-- Carousal effect -->
+        <div id="carouselExampleCaptions" class="carousel slide mb-5" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -48,22 +51,22 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./Images/child.jpg" class="d-block w-100" alt="bad boy">
-                    <div class="carousel-caption  d-md-block">
+                    <img src="./Images/child.jpg" class="d-block w-100" alt="Confused and adorable boy">
+                    <div class="carousel-caption d-none d-md-block">
                         <h5>First slide label</h5>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./Images/child.jpg" class="d-block w-100" alt="bad boy">
-                    <div class="carousel-caption  d-md-block">
+                    <img src="./Images/demo.jpg" class="d-block w-100" alt="Demo image">
+                    <div class="carousel-caption d-none d-md-block">
                         <h5>Second slide label</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./Images/child.jpg" class="d-block w-100" alt="bad boy">
-                    <div class="carousel-caption  d-md-block">
+                    <img src="./Images/child.jpg" class="d-block w-100" alt="Confuse and adorable boy">
+                    <div class="carousel-caption d-none d-md-block">
                         <h5>Third slide label</h5>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </div>
@@ -79,21 +82,27 @@
             </a>
         </div>
     </header>
-    <!-- About page -->
-    <section class="main_heading my-5">
-        <div class="bg">
-            <div class="text-center">
-                <h1 class="display-4">about Us</h1>
-                <hr class="w-25 mx-auto" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur reprehenderit doloremque autem alias necessitatibus repudiandae aliquam corrupti hic at qui amet dolorem iure cumque quae corporis beatae quo iste dignissimos, voluptatum
-                    molestias incidunt ex. Provident, alias maiores iusto dolores odit deserunt quod atque ab magni mollitia at cum facilis iste!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis sed quas autem a animi blanditiis enim,
-                    provident et sint, earum voluptatibus! Quis qui, vero facilis, ullam, porro magni deserunt ab repudiandae est repellat nostrum! Soluta, reiciendis deleniti. Quos vitae harum praesentium iure soluta quas tempora ipsam ea, autem quam
-                    voluptate.</p>
+
+    <!-- Content of the page -->
+    <section>
+        <div class="container-fluid text-center">
+            <div class="row mb-5">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <img src="./Images/demo.jpg" alt="Child playing" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h1>What we do?</h1>
+                    <hr/>
+                    <p>Lorem ipsum dolor sit amet. ipsum dolor sit amet.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat voluptates impedit, repellendus maxime blanditiis incidunt accusantium ullam vero? Numquam modi corrupti rem, iste nobis
+                        ipsam saepe quidem id, amet itaque in vero aliquid at laborum, alias exercitationem nam deleniti est. Totam quasi itaque tempora neque officia repudiandae ratione, laborum vel!</p>
+                    <button class="btn bg-primary text-white">For more >></button>
+                </div>
             </div>
         </div>
     </section>
-    <!-- End about page -->
-    <!-- Parallex Effect -->
+
+
+
     <div class="pimg2">
         <div class="ptext">
             <span class="border trans">
@@ -110,21 +119,7 @@
             perferendis neque qui quis aut dignissimos sapiente hic?</p>
     </section>
 
-    <div class="pimg3">
-        <div class="ptext">
-            <span class="border trans">
-              Image Three Text
-            </span>
-        </div>
-    </div>
 
-    <section class="section section-dark">
-        <h2>Section Three</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tenetur eligendi neque nemo quae, voluptatibus consequatur cum velit nulla nam. Suscipit doloremque cumque architecto adipisci voluptas ea ad neque odio repellat voluptatum eos sed
-            provident veniam expedita autem libero nisi, asperiores id a perspiciatis ratione natus deleniti animi. Cupiditate facere dolores consequatur, doloremque quisquam nesciunt voluptatibus inventore nostrum nulla laborum perferendis aliquid. Necessitatibus
-            voluptatibus nam pariatur minima voluptas officiis quo! Ea doloribus mollitia earum voluptatibus temporibus exercitationem quos, dolores, veniam molestiae soluta aut, odio ut provident. Asperiores, amet officiis dolores, laudantium distinctio,
-            perferendis neque qui quis aut dignissimos sapiente hic?</p>
-    </section>
 
     <div class="pimg1">
         <div class="ptext">
@@ -133,13 +128,19 @@
             </span>
         </div>
     </div>
+    <!-- End about page -->
+    <!-- Parallex Effect -->
     <footer>
         <P>Copyright@www.example.com</P>
     </footer>
+
+
+
     <!-- Optional JavaScript -->
-    <!-- Popper.js first, then Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    border-sizing: border-box;
+    box-sizing: border-box;
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -76,6 +76,8 @@
 .ptext .border.trans {
     background-color: transparent;
 }
+
+
 /* 
 div[class="bg"] {
     background: #FFE4C4;
